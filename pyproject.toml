@@ -14,7 +14,5 @@ dependencies = [
     "jaxlib>=0.4.23",
     "numpy>=1.26.4",
     "scikit-image>=0.21.0",
+    "bioio-bioformats>=1.3.2",
 ]
-
-[tool.uv.sources]
-bioio-bioformats = { git = "https://github.com/jmuhlich/bioio-bioformats.git", rev = "perf-ome-metadata" }
